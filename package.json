@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "test": "npm start"
+    "test": "jest",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +18,12 @@
   },
   "homepage": "https://github.com/Lesliescodes/Team-Profile-Generator#readme",
   "dependencies": {
+    "email-validator": "^2.0.4",
+    "inquirer-file-path": "^1.0.1",
+    "inquirer-path": "^1.0.0-beta5",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
     "jest": "^27.4.4"
   }
 }
